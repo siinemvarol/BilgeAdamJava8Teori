@@ -1,0 +1,18 @@
+package com.sinemvarol;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		// 1. otogaleri nesnesi:
+		OtoGaleri kardeslerOtoGaleri = new OtoGaleri("Kardeşler Oto Galeri", 5);
+		
+		Otomobil otomobil1 = new Otomobil("Opel", "Corsa", 2018, 124000, new Motor(1000, "WOLOGG1", 7), 40);
+		kardeslerOtoGaleri.galeriyeOtomobilEkle(otomobil1);
+		Otomobil otomobil2 = new Otomobil("Opel", "Astra", 2019, 114000, new Motor(1400, "WOLOGG2", 9), 50);
+		kardeslerOtoGaleri.galeriyeOtomobilEkle(otomobil2);
+		
+		kardeslerOtoGaleri.galeridekiOtomobilleriListele();
+		}
+
+}

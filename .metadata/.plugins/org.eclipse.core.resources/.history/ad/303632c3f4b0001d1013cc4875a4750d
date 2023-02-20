@@ -1,0 +1,43 @@
+package com.sinemvarol;
+
+public class OtoGaleri {
+	
+	private String galeriAdi;
+	private Otomobil[] otomobilDizisi;
+	private int galeridekiOtomobilSayisi;
+	
+	// OtoGaleri constructor
+	public OtoGaleri(String galeriAdi, int kapasite) {
+		this.otomobilDizisi = new Otomobil[kapasite];
+		this.galeridekiOtomobilSayisi = 0;
+		this.setGaleriAdi(galeriAdi); 		// this.galeriAdi = galeriAdi;
+		
+	}
+	
+	public void galeriyeOtomobilEkle(Otomobil otomobil) {
+		if (galeridekiOtomobilSayisi < otomobilDizisi.length) {			// galeride boş yer varsa otomobil eklensin
+			otomobilDizisi[galeridekiOtomobilSayisi] = otomobil;
+			galeridekiOtomobilSayisi++;
+		}
+		else {														// galeride yer yoksa ekleme işlemi yapılmasın
+			System.err.println("Galeri kapasitesi full, araç eklenemedi !");
+		}
+	}
+	
+	public void galeridekiOtomobilleriListele() {
+		System.out.println("\n" + this.galeriAdi + " galerisindeki otomobiller listesi: ");
+	}
+
+	public String getGaleriAdi() {
+		return galeriAdi;
+	}
+
+	public void setGaleriAdi(String galeriAdi) {
+		this.galeriAdi = galeriAdi;
+	}
+
+	public int getGaleridekiOtomobilSayisi() {
+		return galeridekiOtomobilSayisi;
+	}
+
+}

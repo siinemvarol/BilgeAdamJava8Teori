@@ -1,0 +1,16 @@
+package com.sinemvarol;
+
+public class Kitap {
+	
+	// sınıf üye değişkenleri
+	public String ad;
+	public int sayfaSayisi;
+	public String yazarAdi;
+	int stokMiktari;
+	
+	public String kitapBilgileriniGetir () {
+		String kitapBilgileri = "Ad: " + ad + " Yazar: " + yazarAdi + " Sayfa sayısı: " + sayfaSayisi;
+		return kitapBilgileri;
+	}
+
+}

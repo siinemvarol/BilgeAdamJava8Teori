@@ -1,0 +1,14 @@
+package com.sinemvarol;
+
+public class OtoGaleri {
+	
+	private String galeriAdi;
+	private Otomobil[] otomobilDizisi;
+	private int galeridekiOtomobilSayisi;
+	
+	// OtoGaleri constructor
+	public OtoGaleri(String galeriAdi, int kapasite) {
+		
+	}
+
+}

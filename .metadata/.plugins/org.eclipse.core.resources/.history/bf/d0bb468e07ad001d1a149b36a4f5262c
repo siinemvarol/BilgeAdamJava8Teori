@@ -1,0 +1,14 @@
+package com.alikaya;
+
+public class MainAli {
+
+	public static void main(String[] args) {
+		
+		Paralelkenar paralelKenar1 = new Paralelkenar();
+		paralelKenar1.kenarKisa = ;
+		paralelKenar2.kenarKisa = ;
+		
+
+	}
+
+}

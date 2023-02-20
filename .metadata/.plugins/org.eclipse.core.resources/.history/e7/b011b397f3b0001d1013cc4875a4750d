@@ -1,0 +1,29 @@
+package com.sinemvarol;
+
+public class OtoGaleri {
+	
+	private String galeriAdi;
+	private Otomobil[] otomobilDizisi;
+	private int galeridekiOtomobilSayisi;
+	
+	// OtoGaleri constructor
+	public OtoGaleri(String galeriAdi, int kapasite) {
+		this.otomobilDizisi = new Otomobil[kapasite];
+		this.galeridekiOtomobilSayisi = 0;
+		this.setGaleriAdi(galeriAdi); 		// this.galeriAdi = galeriAdi;
+		
+	}
+
+	public String getGaleriAdi() {
+		return galeriAdi;
+	}
+
+	public void setGaleriAdi(String galeriAdi) {
+		this.galeriAdi = galeriAdi;
+	}
+
+	public int getGaleridekiOtomobilSayisi() {
+		return galeridekiOtomobilSayisi;
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.sinemvarol;
+
+public class Otomobil {
+
+	// Üye özellikler
+	// Otomobil sınıfından türetilecek her bir nesnenin sahip olabileceği nesneye ait özellikler
+	public String marka;		// String nesnesi null olarak initialize edilir
+	public String model;
+	public int yil;
+	public int aracinKm;
+}

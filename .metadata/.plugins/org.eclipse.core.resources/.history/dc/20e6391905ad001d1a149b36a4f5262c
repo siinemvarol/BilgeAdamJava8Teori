@@ -1,0 +1,21 @@
+package com.sinemvarol;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Dikdortgen dikdortgen1 = new Dikdortgen();
+		dikdortgen1.kisaKenar = 7;
+		dikdortgen1.uzunKenar = 10;
+		
+		Dikdortgen dikdortgen2 = new Dikdortgen();
+		dikdortgen1.kisaKenar = 8;
+		dikdortgen1.uzunKenar = 15;
+		
+		System.out.println("dikdortgen1 nesnesinin alanı: " + dikdortgen1.alanHesapla());
+		System.out.println("dikdortgen2 nesnesinin alanı: " + dikdortgen2.alanHesapla());
+		
+
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.sinemvarol;
+
+public class Motor {
+	
+	public int motorHacmi;
+	public String saseNo;
+	public int yakitTuketimi;  // lt/100 km 
+	
+
+
+}

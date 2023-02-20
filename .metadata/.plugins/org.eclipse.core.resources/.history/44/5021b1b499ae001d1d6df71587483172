@@ -1,0 +1,15 @@
+package com.sinemvarol;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//Motor motor = new Motor();
+		//motor.setMotorHacmi(1400);
+		//motor.setYakitTuketimi(10);
+		
+		Motor motor = new Motor(1400, "WLO4455", 10);
+		System.out.println(motor);
+	}
+
+}

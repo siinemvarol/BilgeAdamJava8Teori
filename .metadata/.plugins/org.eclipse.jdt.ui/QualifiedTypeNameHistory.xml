@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.alikaya.YardimciSinif"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.alikaya.Paralelkenar"/>
+    <fullyQualifiedTypeName name="com.alikaya.Ucgen"/>
+    <fullyQualifiedTypeName name="com.sinemvarol.IletisimBilgileri"/>
+    <fullyQualifiedTypeName name="com.sinemvarol.Otomobil"/>
+    <fullyQualifiedTypeName name="com.sinemvarol.Motor"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>
