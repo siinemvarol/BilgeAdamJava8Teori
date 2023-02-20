@@ -1,1 +1,0 @@
-"# BilgeAdamJava8Teori" 
