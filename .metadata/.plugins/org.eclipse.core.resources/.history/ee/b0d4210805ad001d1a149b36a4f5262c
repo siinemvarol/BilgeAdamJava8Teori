@@ -1,7 +1,0 @@
-package com.sinemvarol;
-
-public class Dikdortgen {
-	public int kisaKenar;
-	public int uzunKenar;
-	
-}

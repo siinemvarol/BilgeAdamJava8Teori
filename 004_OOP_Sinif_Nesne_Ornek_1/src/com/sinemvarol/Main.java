@@ -35,7 +35,7 @@ public class Main {
 		System.out.println(ravensBurgerEyfel.puzzleBilgileriniGetir());
 		
 		Kitap kitap3;
-		kitap3 = kitap2;       // bu satırda kitap3 için kitap2'nin bilgilerini kopyamalıyorum. memory'de kitap2'nin yerini point ediyorum
+		kitap3 = kitap2;       // bu satırda kitap3 için kitap2'nin bilgilerini kopyalamıyorum. memory'de kitap2'nin yerini point ediyorum
 		System.out.println(kitap3.ad);
 		kitap3.sayfaSayisi = 75;
 		System.out.println(kitap3.sayfaSayisi);

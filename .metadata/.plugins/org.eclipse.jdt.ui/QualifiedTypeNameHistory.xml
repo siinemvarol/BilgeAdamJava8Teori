@@ -11,4 +11,11 @@
     <fullyQualifiedTypeName name="com.sinemvarol.Otomobil"/>
     <fullyQualifiedTypeName name="com.sinemvarol.Motor"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.sinemvarol.DaireBaskani"/>
+    <fullyQualifiedTypeName name="com.sinemvarol.Main"/>
+    <fullyQualifiedTypeName name="com.sinemvarol.Sinif"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>

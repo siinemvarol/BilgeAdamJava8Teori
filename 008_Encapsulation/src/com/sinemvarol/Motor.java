@@ -11,7 +11,7 @@ package com.sinemvarol;
  *    Erişim belirteçleri, oluşturulan sınıf veya sınıf içindeki elemanların erişim seviyelerini belirlemek için kullanılan
  *    anahtar kelimeler grubuna verilen isimdir (public, private, protected). 
  * 
- *    Metotlar ve değişkenler bir anahtar sözcük ile önceden bellirlenen sınırlar dahilinde kullanılabilir.
+ *    Metotlar ve değişkenler bir anahtar sözcük ile önceden belirlenen sınırlar dahilinde kullanılabilir.
  *    Bu anahtar kelimeler şu şekilde sıralanabilir : public, private, protected.*/
 
 public class Motor {
@@ -46,8 +46,5 @@ public class Motor {
 		return "Motor [motorHacmi=" + motorHacmi + ", saseNo=" + saseNo + ", yakitTuketimi=" + yakitTuketimi + "]";
 	}
 	
-	
-	
-
 
 }
