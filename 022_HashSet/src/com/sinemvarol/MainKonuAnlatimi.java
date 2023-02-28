@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
-public class Main {
+public class MainKonuAnlatimi {
 
 	// HashSet'ler Java'da elemanlara random olarak çok hızlı bir şekilde erişmek
 	// için kullanılan veri yapılarıdır. (indexing yok)

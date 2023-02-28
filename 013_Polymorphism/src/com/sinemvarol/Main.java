@@ -54,7 +54,7 @@ public class Main {
 		Main.yeniMaasiHesapla(daireBaskani);
 		
 		GenelMudur gm = new GenelMudur("Kazım", "Kaya", "11122", 52, 90000, 1, 5325554433L);
-		// MainçyeniMaasiHesapla(gm); --> çalışmaz çünkü GenelMudur sınıfı Personel sınıfından türetilmemiştir (extend edilmemiştir)
+		// Main.yeniMaasiHesapla(gm); --> çalışmaz çünkü GenelMudur sınıfı Personel sınıfından türetilmemiştir (extend edilmemiştir)
 		
 	}
 

@@ -69,6 +69,8 @@ public class Main {
 		System.out.println(arrList);
 		arrList.remove(new Integer(3));
 		System.out.println(arrList);
+		arrList.remove(Integer.valueOf(3));
+		System.out.println(arrList);
 
 		// ArrayList'ler içinde kendi Nesnelerimizin kullanımı:
 		System.out.println();

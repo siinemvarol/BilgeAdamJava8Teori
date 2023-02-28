@@ -5,7 +5,7 @@ public class Muhendis extends Personel {
 	private String uzmanlikAlani;
 	
 	// Ek bilgi: Aşağıdaki örnekte boş constructor içinde mutlaka üst sınıfın constructorlarından birinin çağırılması gerekir
-	// buradaki metni alamadım
+	// hangisi olduğu fark etmez. önemli olan ata sınıfın constructor'ının (yapıcı metodunun) çağrılması
 	
 //	public Muhendis() {  
 //		super("ad", "soyad", "tcKimlik", 5, 5, 5, 5334442233L);

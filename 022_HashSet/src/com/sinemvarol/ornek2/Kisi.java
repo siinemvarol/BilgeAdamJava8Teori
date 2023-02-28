@@ -1,4 +1,4 @@
-package com.sinemvarol;
+package com.sinemvarol.ornek2;
 
 import java.util.Objects;
 
@@ -33,7 +33,7 @@ public class Kisi {
 	}
 	
 	public int hashCode() {
-		return Objects.hash(id, ad);
+		return Objects.hash(id);
 	}
 	
 	public boolean equals(Object object) {
@@ -47,7 +47,7 @@ public class Kisi {
 			return false;
 		}
 		Kisi other = (Kisi) object;
-		return (Objects.equals(ad, other.ad) && (Objects.equals(id, other.id)));
+		return Objects.equals(id, other.id);
 	}
 
 	@Override
