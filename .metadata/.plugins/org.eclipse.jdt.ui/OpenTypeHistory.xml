@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=020_Interfaces/src&lt;com.sinemvarol{ITermometre.java[ITermometre" modifiers="513" timestamp="1677480594855"/>
+    <typeInfo handle="=020_Interfaces/src&lt;com.sinemvarol{INemOlcer.java[INemOlcer" modifiers="513" timestamp="1677480592708"/>
+    <typeInfo handle="=021_Interface_Ornek/src&lt;com.sinemvarol{Hayvan.java[Hayvan" modifiers="1025" timestamp="1677137822532"/>
+</typeInfoHistroy>

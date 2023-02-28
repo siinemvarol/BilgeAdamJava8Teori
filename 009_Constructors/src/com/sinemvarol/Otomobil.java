@@ -13,7 +13,7 @@ public class Otomobil {
 	
 	// Parametre: Bir metodun parantez içinde aldığı değişkenlere denir.
 	public Otomobil(String marka, String model, int yil, int aracinKm, Motor motor) {
-		this.setAracinKm(aracinKm);									// bu constructordaki gibi motor tanımlamak tabsiye ediliyor
+		this.setAracinKm(aracinKm);									// bu constructordaki gibi motor tanımlamak tavsiye ediliyor
 		this.setMarka(marka);
 		this.setModel(model);
 		this.setYil(yil);
@@ -24,7 +24,7 @@ public class Otomobil {
 		this.setAracinKm(aracinKm);							
 		this.setMarka(marka);
 		this.setModel(model);
-		this.setYil(yil);											// bu constructordaki gibi motor tanımlamak tabsiye edilmiyor
+		this.setYil(yil);											// bu constructordaki gibi motor tanımlamak tavsiye edilmiyor
 		this.motor = new Motor(motorHacmi, saseNo, yakitTuketimi);   // bunun yerine aşağıdaki gibi de olur
 		// this.setMotor(new Motor(motorHacmi, saseNo, yakitTuketimi));
 	}

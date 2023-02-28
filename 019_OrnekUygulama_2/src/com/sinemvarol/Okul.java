@@ -73,6 +73,18 @@ public class Okul {
 			System.out.println("Sınıf adı: " + sinif.getSinifAdi() + " Lokasyon: " + sinif.getLokasyon());
 		}
 	}
+	
+	// Parametre olarak sınıf adı girilen ve sonuçta ilgili sınıf nesnesini return eden bir metod yazalım
+	public Sinif getSinif(String sinifAdi) {
+		for (Sinif sinif : siniflarList) {
+			if (sinif.getSinifAdi().equalsIgnoreCase(sinifAdi)) {
+				return sinif;
+			}
+		}
+		return null;
+	}
+	
+	
 
 	public void okulaSinifEkle(Sinif sinif) {
 		this.siniflarList.add(sinif);
