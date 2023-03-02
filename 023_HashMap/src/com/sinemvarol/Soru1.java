@@ -14,7 +14,7 @@ public class Soru1 {
 	// İpucu: HashMap kullanabilirsiniz
 	// İpucu -> Key : Karakter -> Value : Karakterin tekrar sayısını (count)
 	// tutabilirsiniz.
-	
+
 	// Soru 2: En çok tekrar eden harfi bulunuz ve tekrar sayısını yazdırınız
 
 	public static void harfSayisiniBul(String metin) {
@@ -32,26 +32,25 @@ public class Soru1 {
 		System.out.println(hashMap);
 
 	}
-	
+
 	public static void enCokTekrarEdenHarfiBul(String metin) {
 		HashMap<Character, Integer> hashMap = new HashMap<Character, Integer>();
 		char enCokTekrarEdenKarakter = 0;
 		int max = 0;
-		
-		
+
 		for (int i = 0; i < metin.length(); i++) {
 			char ch = metin.charAt(i);
 
 			if (hashMap.containsKey(ch)) { // karakter hashMap'te mevcutsa bu kod bloğuna girer
-				
-				int tekrarSayisi = hashMap.get(ch)+1;
-				
+
+				int tekrarSayisi = hashMap.get(ch) + 1;
+
 				if (tekrarSayisi > max) {
 					enCokTekrarEdenKarakter = ch;
 					max = tekrarSayisi;
 				}
-				hashMap.put(ch, hashMap.get(ch)+1);
-				
+				hashMap.put(ch, hashMap.get(ch) + 1);
+
 			} else { // karakter hashMap'te mevcut değilse bu kod bloğuna girer
 				hashMap.put(ch, 1);
 			}
