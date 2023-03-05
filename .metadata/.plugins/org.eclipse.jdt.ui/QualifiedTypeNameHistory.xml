@@ -29,7 +29,6 @@
     <fullyQualifiedTypeName name="java.util.Queue"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.sinemvarol.controller.OgrenciController"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.sinemvarol.repository.entity.Ogrenci"/>
     <fullyQualifiedTypeName name="com.sinemvarol.repository.OgrenciRepository"/>
     <fullyQualifiedTypeName name="com.sinemvarol.utility.DataBase"/>
@@ -37,4 +36,10 @@
     <fullyQualifiedTypeName name="com.sinemvarol.repository.entity.Ogretmen"/>
     <fullyQualifiedTypeName name="com.sinemvarol.MainEnumOrnek"/>
     <fullyQualifiedTypeName name="com.sinemvarol.MainEnumOrnek.Mevsimler"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.sinemvarol.AsiriHizException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="com.sinemvarol.CarpmaLimitException"/>
 </qualifiedTypeNameHistroy>
