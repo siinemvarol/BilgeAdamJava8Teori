@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.alikaya.YardimciSinif"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="com.alikaya.Paralelkenar"/>
     <fullyQualifiedTypeName name="com.alikaya.Ucgen"/>
     <fullyQualifiedTypeName name="com.sinemvarol.IletisimBilgileri"/>
@@ -17,7 +16,6 @@
     <fullyQualifiedTypeName name="com.sinemvarol.GoldenRetriever"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Objects"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
@@ -27,12 +25,10 @@
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.sinemvarol.controller.OgrenciController"/>
     <fullyQualifiedTypeName name="com.sinemvarol.repository.entity.Ogrenci"/>
     <fullyQualifiedTypeName name="com.sinemvarol.repository.OgrenciRepository"/>
     <fullyQualifiedTypeName name="com.sinemvarol.utility.DataBase"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.sinemvarol.repository.entity.Ogretmen"/>
     <fullyQualifiedTypeName name="com.sinemvarol.MainEnumOrnek"/>
     <fullyQualifiedTypeName name="com.sinemvarol.MainEnumOrnek.Mevsimler"/>
@@ -42,4 +38,15 @@
     <fullyQualifiedTypeName name="com.sinemvarol.AsiriHizException"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="com.sinemvarol.CarpmaLimitException"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.sinemvarol.Ogrenci"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="com.sinemvarol.IUcabilir"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
 </qualifiedTypeNameHistroy>
