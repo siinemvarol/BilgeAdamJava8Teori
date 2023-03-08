@@ -136,11 +136,56 @@ public class Main {
 
 		try {
 			fileInputStream = new FileInputStream("dosya.txt");
-			fileInputStream.skipNBytes(start - 1);
+			fileInputStream.skipNBytes(start);
 			for (int i = 0; i < count; i++) {
 				System.out.println((char) fileInputStream.read());
 			}
 
+		} catch (FileNotFoundException e) {
+			System.out.println("Dosya bulunamadı!");
+			e.printStackTrace();
+		} catch (IOException e) {
+			System.out.println("Dosya okuma sırasında hata oluştu!");
+			e.printStackTrace();
+		} catch (Exception e) {
+			System.out.println("Bilinmeyen bir hata oluştu!");
+			e.printStackTrace();
+		} finally {
+			try {
+				if (fileInputStream != null) {
+					fileInputStream.close();
+				}
+
+			} catch (IOException e) {
+				System.out.println("Kapatma sırasında hata oluştu!");
+				e.printStackTrace();
+			}
+		}
+
+	}
+
+	public static void dosyaninBelirtilenKisminiOku2(int start, int count, String dosyaAdi) {
+
+		FileInputStream fileInputStream = null;
+		int okunan;
+		String metin = "";
+
+		try {
+			fileInputStream = new FileInputStream(dosyaAdi);
+			fileInputStream.skip(start);
+			int sayac = 0;
+			
+			while ((okunan = fileInputStream.read()) != -1){
+				metin = metin + (char) okunan;
+				sayac++;
+
+				if (sayac == count) {
+					break;
+				}
+				
+				}
+			System.out.println(metin);
+			
 		} catch (FileNotFoundException e) {
 			System.out.println("Dosya bulunamadı!");
 			e.printStackTrace();
@@ -178,7 +223,10 @@ public class Main {
 		// örn. dosyaninBelirtilenKisminiOku(7,3); // 7. karakterden başlayıp 3 karakter
 		// okur
 		System.out.println("\n- - - - -");
-		dosyaninBelirtilenKisminiOku(23,4);
+		dosyaninBelirtilenKisminiOku(23, 4);
+		
+		System.out.println("\n- - - - -");
+		dosyaninBelirtilenKisminiOku2(2,3, "dosya.txt");
 	}
 
 }
