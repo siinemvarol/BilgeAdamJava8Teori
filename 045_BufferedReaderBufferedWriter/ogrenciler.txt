@@ -5,3 +5,10 @@ Ali Kaya, 333
 Zeynep Altın, 132
 Bartu Altın, 372
 Kaan Altın, 382
+Özgür Öz, 443
+Ali Kaya, 333
+Şafak Kaya, 123
+Ömer Altın, 332
+Zeynep Altın, 132
+Bartu Altın, 372
+Kaan Altın, 382
